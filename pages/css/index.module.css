@@ -1,0 +1,38 @@
+.textBlock {
+  padding: 25px;
+}
+.scrappedText {
+  background: ghostwhite;
+  border-color: lightsteelblue;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  padding: 20px;
+  height: 500px;
+  overflow: scroll;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.colorBlue {
+  color: cornflowerblue;
+}
+
+.page {
+  margin: 40px;
+  font-family: Arial, sans-serif;;
+}
+
+.link {
+  display: list-item;
+  margin: 15px 15px 0;
+}
+
+.linkText {
+  color: slategrey;
+  margin-left: 15px;
+  font-size: small;
+}
+
+.linkUrl {
+  margin-left: 15px;
+}
