@@ -1,5 +1,4 @@
-
-# Experimental Microservices for Webscrapping
+# Experimental Microservices for Data Adquisition using Web Scrapping
 
 ## Features 🛠️
 
@@ -9,7 +8,7 @@
 
 - WebScrapping based on Cheerio library
 
-- Universal/Isomorphic Javascript
+- [Universal/Isomorphic](https://en.wikipedia.org/wiki/Isomorphic_JavaScript) Javascript
 
 - Microservices accesible as REST endpoints
 
