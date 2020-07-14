@@ -10,12 +10,10 @@ const getRemoteHtml = async (url: string): Promise<ScrappedResponse> => {
 
 export default async (req: NextApiRequest, res: NextApiResponse<ScrappedResponse | ScrappedError>) => {
   const { query: {url} } = req
-  console.log('url', url)
   try {
     const response: ScrappedResponse = await getRemoteHtml(url as string)
     res.status(200).json(response)
   } catch (e) {
-    console.log(e.stack)
     res.status(400).json({error: e.message})
   }
 }
