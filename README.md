@@ -16,7 +16,7 @@
 
 ## Demo
 
-- https://https://webscrapping-microservices.vercel.app/
+- https://webscrapping-microservices.vercel.app/
 
 ## Endpoints
 
