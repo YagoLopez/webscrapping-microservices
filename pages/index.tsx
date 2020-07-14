@@ -47,6 +47,11 @@ export default () => {
           The text below was extracted from: <code className={css.colorBlue}>{URL_TO_EXTRACT_TEXT}</code>
         </div>
         <div className={css.scrappedText} dangerouslySetInnerHTML={ getScrappedHtml() }></div>
+        <div className={css.centered}>
+          <a href="https://github.com/YagoLopez/webscrapping-microservices" target="_blank">
+            Project Page on GitHub
+          </a>
+        </div>
       </div>
     </div>
   )
