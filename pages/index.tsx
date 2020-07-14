@@ -25,7 +25,7 @@ export default () => {
     <div className={css.page}>
       <Head title="Home" />
       <div>
-        <h1>Experimental microservices for WebScrapping</h1>
+        <h1>Experimental Microservices for Data Adquisition using Web Scrapping</h1>
         <div>
           <div >There are two endpoints available:</div>
           <div>
