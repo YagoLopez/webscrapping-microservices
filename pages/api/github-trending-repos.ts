@@ -1,7 +1,12 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import cheerio from 'cheerio'
-import TrendingRepo from "./models/TrendingRepo"
+import TrendingRepo from './models/TrendingRepo'
 
+/**
+ * Extract trending repositories from GitHub
+ * @param {NextApiRequest} req
+ * @param {NextApiResponse<TrendingRepo[]} res
+ */
 export default async (req: NextApiRequest, res: NextApiResponse<TrendingRepo[]>) => {
 
   const GITHUB_TRENDING_REPOS_URL = 'https://github.com/trending'

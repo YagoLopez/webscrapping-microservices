@@ -8,6 +8,12 @@ const getRemoteHtml = async (url: string): Promise<ScrappedResponse> => {
     webscrapper(url, (err, remoteData, res) => !err ? resolve(remoteData) : reject(err)))
 }
 
+/**
+ * Extract text from remote web page
+ * Pass a url query string parameter to endpoint to scrape its text
+ * @param {NextApiRequest} req
+ * @param {NextApiResponse<ScrappedResponse | ScrappedError>} res
+ */
 export default async (req: NextApiRequest, res: NextApiResponse<ScrappedResponse | ScrappedError>) => {
   const { query: {url} } = req
   try {
