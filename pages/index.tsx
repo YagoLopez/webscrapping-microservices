@@ -45,8 +45,6 @@ export default () => {
         </div>
         <div className={css.textBlock}>
           The text below was extracted from: <code className={css.colorBlue}>{URL_TO_EXTRACT_TEXT}</code>
-          &nbsp;using the first endpoint to extract text:
-          <code className={css.colorBlue}>/api/extract-text?url=</code>
         </div>
         <div className={css.scrappedText} dangerouslySetInnerHTML={ getScrappedHtml() }></div>
       </div>
