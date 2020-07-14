@@ -1,20 +1,23 @@
 {
-  "name": "create-next-app-cli",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "name": "experimental-microservices-for-webscrapping",
+  "version": "1.0.0",
+  "description": "Experimental Microservices for Data Adquisition using Web Scrapping",
+  "main": "/pages/index.tsx",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "gen:docs": "typedoc --out docs --mode file --exclude .\\components\\** --exclude .\\pages\\_document.tsx --readme none",
+    "open:docs": "start docs/index.html",
+    "gen:open:docs": "npm run gen:docs && npm run open:docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "microservices, webscrapping, reactjs, nextjs, typescript, server-side-rendering, api"
+  ],
+  "author": "Yago Lopez Salvador",
+  "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
-    "express": "^4.17.1",
     "next": "9.4.4",
     "node-read": "^0.1.7",
     "react": "16.13.1",
@@ -23,6 +26,7 @@
   "devDependencies": {
     "@types/node": "^14.0.20",
     "@types/react": "^16.9.41",
+    "typedoc": "^0.17.8",
     "typescript": "^3.9.6"
   }
 }

@@ -18,9 +18,18 @@
 
 - https://webscrapping-microservices.vercel.app/
 
+## Scripts
+
+- Type `npm run` in the project directory to see an available list of scripts
+- Type `nrm run dev` to run project in development mode
+
 ## Endpoints
 
 - https://webscrapping-microservices.vercel.app/api/extract-text?url=
 
 - https://webscrapping-microservices.vercel.app/api/github-trending-repos
+
+## API Docs
+
+- [Documentation](docs/index.html)
 
