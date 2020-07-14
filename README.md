@@ -18,10 +18,28 @@
 
 - https://webscrapping-microservices.vercel.app/
 
-## Scripts
+## Run and build
 
-- Type `npm run` in the project directory to see an available list of scripts
-- Type `nrm run dev` to run project in development mode
+```bash
+# install dependencies
+$ npm install
+
+# list available scripts
+$ npm run
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production
+$ npm run build
+
+# Run production build
+$ npm run start
+
+# Compile API docs in doc directory
+$ npm run gen:doc
+
+```
 
 ## Endpoints
 
