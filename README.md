@@ -1,5 +1,7 @@
 # Experimental Microservices for Data Adquisition using Web Scrapping
 
+[![Repository stats](https://github-readme-stats.vercel.app/api?username=YagoLopez&hide=["contribs"])](https://github.com/anuraghazra/github-readme-stats)
+
 ## Features 🛠️
 
 - React Hooks
