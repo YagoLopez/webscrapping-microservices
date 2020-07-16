@@ -1,7 +1,7 @@
 {
   "name": "experimental-microservices-for-webscrapping",
   "version": "1.0.0",
-  "description": "Experimental Microservices for Data Adquisition using Web Scrapping",
+  "description": "Experimental Microservices for Data Adquisition Using Web Scrapping",
   "main": "/pages/index.tsx",
   "scripts": {
     "dev": "next",

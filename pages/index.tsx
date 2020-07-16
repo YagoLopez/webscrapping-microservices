@@ -33,22 +33,35 @@ export default () => {
               <a className={css.link} target="_blank"><code>Endpoint to extract text from a webpage</code></a>
             </Link>
             <div className={css.linkText}>Data is extracted from this remote url:</div>
-            <code className={css.linkUrl}>{URL_TO_EXTRACT_TEXT}</code>
+            <code>
+              <a href={URL_TO_EXTRACT_TEXT} target="_blank" className={css.linkUrl}>
+                {URL_TO_EXTRACT_TEXT}
+              </a>
+            </code>
           </div>
           <div>
             <Link href="/api/github-trending-repos">
-              <a className={css.link} target="_blank"><code>Endpoint to extract trending github repos</code></a>
+              <a className={css.link} target="_blank">
+                <code>Endpoint to extract trending github repos</code>
+              </a>
             </Link>
             <div className={css.linkText}>Data is extracted from this remote url:</div>
-            <code className={css.linkUrl}>http://howtonode.org/really-simple-file-uploads</code>
+            <code>
+              <a href="https://github.com/trending" target="_blank" className={css.linkUrl}>
+                https://github.com/trending
+              </a>
+            </code>
           </div>
         </div>
         <div className={css.textBlock}>
-          The text below was extracted from: <code className={css.colorBlue}>{URL_TO_EXTRACT_TEXT}</code>
+          The text below was extracted from:
+          <code>
+            <a href={URL_TO_EXTRACT_TEXT} target="_blank" className={css.linkUrl}>{URL_TO_EXTRACT_TEXT}</a>
+        </code>
         </div>
         <div className={css.scrappedText} dangerouslySetInnerHTML={ getScrappedHtml() }></div>
         <div className={css.centered}>
-          <a href="https://github.com/YagoLopez/webscrapping-microservices" target="_blank">
+          <a href="https://github.com/YagoLopez/webscrapping-microservices" target="_blank" className={css.linkUrl}>
             Project Page on GitHub
           </a>
         </div>

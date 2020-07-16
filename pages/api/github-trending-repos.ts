@@ -3,7 +3,7 @@ import cheerio from 'cheerio'
 import TrendingRepo from './models/TrendingRepo'
 
 /**
- * Extract trending repositories from GitHub.
+ * Extract trending repositories from GitHub: https://github.com/trending
  * @param {NextApiRequest} req
  * @param {NextApiResponse<TrendingRepo[]>} res
  */

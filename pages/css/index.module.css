@@ -34,7 +34,15 @@
 }
 
 .linkUrl {
+  text-decoration: none;
   margin-left: 15px;
+  font: menu;
+  color: blue;
+}
+
+.linkUrl:hover {
+  background: lightcyan;
+  text-decoration: underline;
 }
 
 .centered {
