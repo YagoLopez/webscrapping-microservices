@@ -22,7 +22,7 @@ const getGithubTrendingRepos = async (req: NextApiRequest, res: NextApiResponse<
       .get()
       .map( (repo) => {
         const repoElement = $(repo)
-        let result: TrendingRepo = {name: '', url: '', description: '', owner: '', contributors: ''}
+        let result: TrendingRepo = {}
         result.name = repoElement.find('a').get(1).children[4].data.trim()
         result.url = GITHUB_BASE_URL + repoElement.find('a').get(1).attribs.href
         result.contributors = GITHUB_BASE_URL + repoElement.find('a').get(2).attribs.href
